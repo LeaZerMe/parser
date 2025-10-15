@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      - run: node monitor.js
+      - run: node bot.js
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           ADMIN_ID: ${{ secrets.ADMIN_ID }}
