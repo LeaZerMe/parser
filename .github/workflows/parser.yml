@@ -2,7 +2,7 @@ name: Crypto Monitor
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # кожні 5 хвилин
+    - cron: "*/1 * * * *" # кожні 5 хвилин
   workflow_dispatch:
 
 jobs:
